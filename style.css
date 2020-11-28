@@ -1,0 +1,267 @@
+        /* - b o d y - */
+
+        body {
+            background-color: #f7f3ec;
+            color: #545244;
+            font-family: 'Abel', sans-serif;
+            font-size: 14px;
+            margin: 0;
+            padding: 0;
+            text-align: justify;
+            overflow-x: hidden;
+        }
+
+        /* - c o n t e n t - */
+
+        #content {
+            width: 913px;
+            background-color: #f7f3ec;
+            margin: auto;
+        }
+
+        /* - h e a d e r - */
+
+        #header {
+            background: url('https://i.ibb.co/26yY7xQ/header.png');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            height: 389px;
+            width: 888px;
+        }
+
+        /* - f o o t e r - */
+
+        #footer {
+            background: url('https://static.tumblr.com/ypvonop/IFiqk9spk/footer.png');
+            background-repeat: no-repeat;
+            background-position: bottom;
+            width: 888px;
+            height: 76px;
+            clear: both;
+        }
+
+        /* - s i d e - */
+
+        #sidebar {
+        
+            width: 250px;
+            float: left;
+            position: relative;
+            margin-left: 10px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+
+        /* - p o s t a g e n s - */
+
+        #main {
+            background: #f7f3ec;
+            width: 500px;
+            float: right;
+            position: relative;
+            margin-right: 52px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+
+        .caixa {
+            background: #fff;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        /* --- POSTAGEM  --- */
+
+        #main {
+            width: 565px;
+            float: right;
+            position: relative;
+            margin-right: 65px;
+        }
+
+        .caixa {
+            background: #f2f3f6;
+            overflow: hidden;
+            padding: 2px;
+            font-family: 'Abel', sans-serif;
+            font-size: 13pt;
+            color: #594432;
+            text-align: justify;
+            outline: 0px solid ;
+            margin-top: 6px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            border-width: 2px;
+            border-color: #7090b6;
+            border-style: solid;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+        }
+
+        /* --- SIDEBAR  --- */
+
+        #sidebar {
+            width: 264px;
+            float: left;
+            position: relative;
+            margin-top: 16px;
+            margin-left: 2px;
+        }
+
+        .side {
+            background: #f2f3f6;
+            padding: 7px;
+            text-align: justify;
+            color: #594432;
+            margin-bottom: 5px;
+            margin-top: 30px;
+            margin-left: 24px;
+            border-width: 2px;
+            border-color: #7090b6;
+            border-style: solid;
+            -moz-border-radius: 2px;
+            -webkit-border-radius: 2px;
+        }
+
+        /** Links e tals  **/
+
+        ::-moz-selection {
+            color: #fff;
+            background: transparent;
+            text-shadow: 0 1px 1px #FFF;
+        }
+
+        ::selection {
+            color: #fff;
+            background: transparent;
+        }
+
+        a {
+            color: #ff9171;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #d17359;
+            -webkit-transition: all 0.5s linear;
+            -moz-transition: all 0.5s linear;
+            -o-transition: all 0.5s linear;
+        }
+
+        /***negrito, itálico e blabla***/
+
+        b, strong {
+            color: #e85a32;
+            text-decoration: none;
+            cursor: help;
+        }
+
+        s {
+            color: #aaa790;
+            cursor: help;
+        }
+
+        i {
+            color: #20aaad;text-decoration: none;
+            cursor: help;
+        }
+
+        u, underline {
+            color: #aaa790;
+            text-decoration: none;
+            border-bottom: 1px dashed #20aaad;
+            cursor: help;
+        }
+
+        /** -- Candidatos -- **/
+
+        #candidatos {
+            background: transparent;
+            width: 300px;
+            height: 74px;
+            margin-top: 50px;
+            margin-left: 350px;
+        }
+
+        /* gabs */
+
+        .candidatosfotinho {
+            width: 64px;
+            height: 64px;
+            margin-left: 6px;
+            border: 3px solid #e85a32;
+            /* gabs */
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            border-radius: 30px;
+            -webkit-transition-duration: 1.20s;
+            width: 64px;
+        }
+
+        .candidatosfotinho:hover {
+            opacity: 0.5;
+            -webkit-transition-duration: .30s;
+            /* gabs */
+            -webkit-transform: rotate(360deg);
+        }
+      
+
+        /*Thami*/
+       
+        .font-nome{
+            display: none;
+        
+        }
+     
+         .titulo-responsivo{
+             display: none;
+         }
+        
+        @media (max-width: 768px){
+            .candidatosfotinho{
+                border-radius: 50px;
+                width: 100px;
+                height: 100px;
+            }
+        
+            #ultima-foto{
+                margin-left: 36px;
+               
+            }
+            #texto img {
+                display: none;
+            }
+        
+            .font-nome{
+                font-family: 'Architects Daughter', cursive;
+                display: block;
+                color: #e85a32;
+                font-size: 250%;
+            }
+        
+      
+           .titulo-responsivo{
+                font-family: 'Architects Daughter', cursive;
+                display: flex;
+                font-size: 205%;
+                color: #e85a32;
+            }   
+
+            .invisivel{
+                display: none;
+            }
+
+            #header {
+                background: url('https://static.tumblr.com/ypvonop/uBbqk9soy/header.png');
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                height: 100vh;
+            }
+
+        }
+
+        /* Gabe */
+
+        #form, #textbox, #label_aval {
+            margin-left: 5%;
+        }
